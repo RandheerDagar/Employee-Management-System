@@ -34,30 +34,30 @@
 <span></span>
 </li>
 <li>Navigate to the project directory:<br>
-<span style="color:blue ;font-weight:bold"> cd EmployeeMs</span>
+<span> => cd EmployeeMs</span>
 </li>
 <li>Install Node.js dependencies:<br>
-<span style="color:blue ;font-weight:bold"> npm install</span>
+<span> => npm install</span>
 </li>
 <li>Navigate to Server Folder and install required packages:<br>
-<span style="color:blue ;font-weight:bold"> cd server and  npm install {required packages}</span>
+<span> => cd server and  npm install {required packages}</span>
 </li>
 </li>
 <li>Connect MySQL properly by providing (Host, user, password,database) in db.js.
 </li>
 <li>Create three tables: admin, category, employee in mysql in same database as provide above.</li>
 <li>Add one admin in admin table so, that you can login by using admin mail and password.</li>
-<div>CREATE TABLE admin(
+<div> => CREATE TABLE admin(
 id INT PRIMARY KEY,
 email VARCHAR(50),
 password VARCHAR(140)
 );</div>
-<div>INSERT INTO admin VALUES(1, "admin@gmail.com", "123456");</div>
-<div>CREATE TABLE category(
+<div> => INSERT INTO admin VALUES(1, "admin@gmail.com", "123456");</div>
+<div> => CREATE TABLE category(
 id INT AUTO_INCREMENT PRIMARY KEY,
 name VARCHAR(50)
 );</div>
-<div>CREATE TABLE employee (
+<div> => CREATE TABLE employee (
     Emp_Id INT PRIMARY KEY,
     name VARCHAR(255),
     email VARCHAR(255),
