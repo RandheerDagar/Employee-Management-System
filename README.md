@@ -66,5 +66,4 @@ name VARCHAR(50)
     department_id INT
 );</div>
 </ol>
-
 <p>after all the above command run :npm run dev.</p>
