@@ -31,7 +31,7 @@
 <h2>Installation</h2>
 <ol>
 <li>Clone the Employee Management System repository to your local machine using the following command:<br>
-<span></span>
+<span> => git clone https://github.com/RandheerDagar/Employee-Management-System.git</span>
 </li>
 <li>Navigate to the project directory:<br>
 <span> => cd EmployeeMs</span>
